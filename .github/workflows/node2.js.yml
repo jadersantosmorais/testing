@@ -26,5 +26,5 @@ jobs:
       with:
         node-version: '12.x'
     - run: yarn install
-    - run: npm run build
+    - run: next build
     - run: ls -ltra
